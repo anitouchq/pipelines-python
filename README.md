@@ -1,12 +1,5 @@
 # pipelines-python
 
-<img width="1553" height="554" alt="image" src="https://github.com/user-attachments/assets/936ec86b-06c5-44a5-a0f8-5eeb90e2d32f" />
-# 🐍 pipelines-python
-
-Учебный проект: **CI-пайплайн на GitHub Actions** для Python-приложения.
-
----
-
 ## 📖 О проекте
 
 Простое Python-приложение (`add`, `main`), для которого настроен CI-пайплайн.
@@ -55,7 +48,8 @@
 ## 🐳 Проверка локально
 
 Сборка Docker-образа:
-<img width="611" height="294" alt="image" src="https://github.com/user-attachments/assets/f0dfe17b-2f0f-44ab-a248-45bbdef4a586" />
+<img width="1809" height="869" alt="photo_5413821073230340027_w" src="https://github.com/user-attachments/assets/f396e26e-1e90-4493-9374-b06826800db1" />
+
 
 ```bash
 docker build -t my-python-app:test .
@@ -98,7 +92,7 @@ flake8 .
 - **pytest** — тесты
 - **flake8** — линтинг
 - **Docker** — контейнеризация
-- **GitHub Actions** — CI
+
 
 ---
 
